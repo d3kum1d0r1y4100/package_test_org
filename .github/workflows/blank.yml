@@ -21,9 +21,6 @@ jobs:
               uses: actions/cache@v2
               env:
                   cache-name: cache-node-modules
-              with:
-                  path: ./node_modules
-                  key: modules-${{ hashFiles('package-lock.json') }}
             - name: Install Node.js dependencies
               run: |
                   npm ci
