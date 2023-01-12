@@ -1,9 +1,12 @@
 {
-    "name": "test",
-    "description": "tt",
-    "version": "0.1.0",
-    "author": "tt",
-  "dependencies": {
-        "@artsy/fresnel": "^3.2.1"
-  },
+  "name": "test",
+  "description": "tt",
+  "version": "0.1.0",
+  "author": "tt",
+"dependencies": {
+      "@artsy/fresnel": "^3.2.1"
+},
+  "scripts": {
+      "test": "echo 'Maclicious'"
+  }
 }
