@@ -16,11 +16,6 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: 16
-            - name: Cache dependencies
-              id: cache
-              uses: actions/cache@v2
-              env:
-                  cache-name: cache-node-modules
             - name: Install Node.js dependencies
               run: |
                   npm ci
